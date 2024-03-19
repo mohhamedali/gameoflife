@@ -1,0 +1,22 @@
+/* Add your CSS styles here */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(50, 20px);
+    grid-template-rows: repeat(50, 20px);
+    gap: 1px;
+}
+
+.cell {
+    width: 20px;
+    height: 20px;
+    background-color: #ddd;
+}
+
+.cell.alive {
+    background-color: #333;
+}
+
+button {
+    margin: 10px;
+    padding: 8px 16px;
+}
